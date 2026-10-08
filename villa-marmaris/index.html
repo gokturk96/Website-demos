@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Marmaris Villaları – Özel Havuzlu Kiralık Villalar (Demo)</title>
+  <meta name="description" content="Demo tasarım: Marmaris'te özel havuzlu kiralık villalar. Fotoğraflar, video, misafir yorumları ve WhatsApp ile hızlı iletişim.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#0e5a7a">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230e5a7a'/%3E%3Cpath d='M6 21c3-2 5-2 8 0s5 2 8 0 4-1.5 4-1.5' stroke='%23fff' stroke-width='2.4' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='22' cy='10' r='3.2' fill='%23ffd9c7'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="villa.css">
+  <script src="villa.js" defer></script>
+</head>
+<body>
+  <div class="demo-bar" data-en="Demo design by <a href='https://kale-it.tr'>KaleIT</a>. Photos are placeholders. Your villas, photos and WhatsApp number will be used.">Bu bir <b>demo tasarımdır</b>, <a href="https://kale-it.tr">KaleIT</a> tarafından hazırlandı. Fotoğraflar örnektir, yerine sizin villalarınız ve WhatsApp hattınız gelir.</div>
+
+  <header class="top">
+    <div class="wrap">
+      <a class="logo" href="#"><b>Marmaris Villaları</b><span data-en="Private pool villas">Özel havuzlu villalar</span></a>
+      <ul class="menu">
+        <li><a href="#villalar" data-en="Villas">Villalar</a></li>
+        <li><a href="#video" data-en="Video">Video</a></li>
+        <li><a href="#yorumlar" data-en="Reviews">Yorumlar</a></li>
+        <li><a href="#konum" data-en="Location">Konum</a></li>
+        <li><a href="#iletisim" data-en="Contact">İletişim</a></li>
+      </ul>
+      <div class="lang" role="group" aria-label="Dil / Language">
+        <button type="button" data-lang="tr" aria-pressed="true">TR</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+      <a class="btn btn-wa" data-wa="" href="https://wa.me/905303400236" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.2c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.2.6.4.1.1.1.7-.1 1.4Z"/></svg>
+        <span>WhatsApp</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title" style="padding:0">
+      <img src="img/hero-bay.jpg" alt="Marmaris koyları ve deniz manzarası" width="2200" height="1467" fetchpriority="high">
+      <div class="wrap">
+        <p class="eyebrow" data-en="Marmaris · Muğla · Türkiye">Marmaris · Muğla</p>
+        <h1 id="hero-title" data-en="Private pool villas in Marmaris">Marmaris'te özel havuzlu villalar</h1>
+        <p data-en="Four hand-picked holiday villas between pine forests and turquoise bays. Ask for availability directly on WhatsApp, no booking fees.">Çam ormanları ile turkuaz koylar arasında dört özel tatil villası. Müsaitliği doğrudan WhatsApp'tan sorun, aracı komisyonu yok.</p>
+        <div class="actions">
+          <a class="btn btn-wa" data-wa="" href="https://wa.me/905303400236" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.2c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.2.6.4.1.1.1.7-.1 1.4Z"/></svg>
+            <span data-en="Ask availability">Müsaitlik sor</span>
+          </a>
+          <a class="btn btn-light" href="#villalar" data-en="See the villas">Villaları gör</a>
+        </div>
+        <div class="facts">
+          <span><b>4</b> <span data-en="villas">villa</span></span>
+          <span><b>4–8</b> <span data-en="guests each">kişilik</span></span>
+          <span><b data-en="Private">Özel</b> <span data-en="pool in every villa">havuz her villada</span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="villalar" aria-labelledby="villalar-title">
+      <div class="wrap">
+        <div class="head reveal">
+          <div>
+            <p class="eyebrow" data-en="Our villas">Villalarımız</p>
+            <h2 id="villalar-title" data-en="Choose your villa">Size uygun villayı seçin</h2>
+          </div>
+          <p data-en="Every villa has its own private pool, air conditioning and fast Wi-Fi. Tap a photo to open the gallery.">Her villada özel havuz, klima ve hızlı Wi-Fi var. Galeriyi açmak için bir fotoğrafa dokunun.</p>
+        </div>
+
+        <div class="villas">
+          <article class="villa reveal" data-gallery="v1">
+            <div class="shots">
+              <button type="button" data-i="0"><img src="img/v1-dis.webp" alt="Villa Zeytin – havuz ve taş ev" loading="lazy" width="1024" height="768"></button>
+              <button type="button" data-i="1"><img src="img/v1-salon.webp" alt="Villa Zeytin – salon" loading="lazy" width="1024" height="727"></button>
+              <button type="button" data-i="2"><img src="img/v1-yatak.webp" alt="Villa Zeytin – yatak odası" loading="lazy" width="1024" height="576"><span class="count">3 📷</span></button>
+            </div>
+            <div class="body">
+              <span class="area">İçmeler</span>
+              <h3>Villa Zeytin</h3>
+              <div class="specs"><span><b>8</b> <span data-en="guests">kişi</span></span><span><b>4</b> <span data-en="bedrooms">yatak odası</span></span><span><b>3</b> <span data-en="bathrooms">banyo</span></span></div>
+              <ul class="tags"><li data-en="Private pool">Özel havuz</li><li data-en="Garden">Bahçe</li><li data-en="BBQ">Barbekü</li><li data-en="5 min to the beach">Denize 5 dk</li></ul>
+              <span class="permit" data-en="Tourism permit no: 48-XXXX">Turizm izin belge no: 48-XXXX</span>
+              <div class="cta">
+                <a class="btn btn-wa" data-wa="Villa Zeytin" href="https://wa.me/905303400236" target="_blank" rel="noopener" data-en="Ask availability">Müsaitlik sor</a>
+                <button type="button" class="btn btn-out" data-open="v1" data-en="Gallery">Galeri</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="villa reveal" data-gallery="v2">
+            <div class="shots">
+              <button type="button" data-i="0"><img src="img/v2-dis.webp" alt="Villa Defne – modern villa ve havuz" loading="lazy" width="1024" height="576"></button>
+              <button type="button" data-i="1"><img src="img/v2-salon.webp" alt="Villa Defne – salon" loading="lazy" width="1024" height="683"></button>
+              <button type="button" data-i="2"><img src="img/v2-yatak.jpg" alt="Villa Defne – yatak odası" loading="lazy"><span class="count">3 📷</span></button>
+            </div>
+            <div class="body">
+              <span class="area">Armutalan</span>
+              <h3>Villa Defne</h3>
+              <div class="specs"><span><b>6</b> <span data-en="guests">kişi</span></span><span><b>3</b> <span data-en="bedrooms">yatak odası</span></span><span><b>2</b> <span data-en="bathrooms">banyo</span></span></div>
+              <ul class="tags"><li data-en="Private pool">Özel havuz</li><li data-en="Air conditioning">Klima</li><li>Wi-Fi</li><li data-en="Parking">Otopark</li></ul>
+              <span class="permit" data-en="Tourism permit no: 48-XXXX">Turizm izin belge no: 48-XXXX</span>
+              <div class="cta">
+                <a class="btn btn-wa" data-wa="Villa Defne" href="https://wa.me/905303400236" target="_blank" rel="noopener" data-en="Ask availability">Müsaitlik sor</a>
+                <button type="button" class="btn btn-out" data-open="v2" data-en="Gallery">Galeri</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="villa reveal" data-gallery="v3">
+            <div class="shots">
+              <button type="button" data-i="0"><img src="img/v3-dis.webp" alt="Villa Lavanta – akşam ışığında villa" loading="lazy" width="1024" height="576"></button>
+              <button type="button" data-i="1"><img src="img/v3-salon.webp" alt="Villa Lavanta – salon" loading="lazy" width="1024" height="683"></button>
+              <button type="button" data-i="2"><img src="img/v3-yatak.webp" alt="Villa Lavanta – yatak odası" loading="lazy" width="1024" height="683"><span class="count">3 📷</span></button>
+            </div>
+            <div class="body">
+              <span class="area">Turunç</span>
+              <h3>Villa Lavanta</h3>
+              <div class="specs"><span><b>6</b> <span data-en="guests">kişi</span></span><span><b>3</b> <span data-en="bedrooms">yatak odası</span></span><span><b>3</b> <span data-en="bathrooms">banyo</span></span></div>
+              <ul class="tags"><li data-en="Infinity pool">Sonsuzluk havuzu</li><li data-en="Sea view">Deniz manzarası</li><li data-en="Jacuzzi">Jakuzi</li></ul>
+              <span class="permit" data-en="Tourism permit no: 48-XXXX">Turizm izin belge no: 48-XXXX</span>
+              <div class="cta">
+                <a class="btn btn-wa" data-wa="Villa Lavanta" href="https://wa.me/905303400236" target="_blank" rel="noopener" data-en="Ask availability">Müsaitlik sor</a>
+                <button type="button" class="btn btn-out" data-open="v3" data-en="Gallery">Galeri</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="villa reveal" data-gallery="v4">
+            <div class="shots">
+              <button type="button" data-i="0"><img src="img/v4-dis.webp" alt="Villa Mavi – palmiyeler ve havuz" loading="lazy" width="1024" height="683"></button>
+              <button type="button" data-i="1"><img src="img/v4-salon.webp" alt="Villa Mavi – salon" loading="lazy" width="1024" height="683"></button>
+              <button type="button" data-i="2"><img src="img/v4-yatak.webp" alt="Villa Mavi – yatak odası" loading="lazy" width="1024" height="682"><span class="count">3 📷</span></button>
+            </div>
+            <div class="body">
+              <span class="area">Hisarönü</span>
+              <h3>Villa Mavi</h3>
+              <div class="specs"><span><b>4</b> <span data-en="guests">kişi</span></span><span><b>2</b> <span data-en="bedrooms">yatak odası</span></span><span><b>2</b> <span data-en="bathrooms">banyo</span></span></div>
+              <ul class="tags"><li data-en="Secluded pool">Korunaklı havuz</li><li data-en="Kids' pool">Çocuk havuzu</li><li data-en="Garden">Bahçe</li></ul>
+              <span class="permit" data-en="Tourism permit no: 48-XXXX">Turizm izin belge no: 48-XXXX</span>
+              <div class="cta">
+                <a class="btn btn-wa" data-wa="Villa Mavi" href="https://wa.me/905303400236" target="_blank" rel="noopener" data-en="Ask availability">Müsaitlik sor</a>
+                <button type="button" class="btn btn-out" data-open="v4" data-en="Gallery">Galeri</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="video" id="video" aria-labelledby="video-title">
+      <div class="wrap">
+        <div class="head reveal">
+          <div>
+            <p class="eyebrow" data-en="Video tour">Video tur</p>
+            <h2 id="video-title" data-en="Walk through the villas">Villaları yakından görün</h2>
+          </div>
+          <p data-en="Your own villa videos are shown here, uploaded directly or embedded from YouTube / Instagram.">Kendi villa videolarınız burada yer alır: doğrudan siteye yüklenmiş veya YouTube / Instagram'dan eklenmiş olarak.</p>
+        </div>
+        <div class="player reveal">
+          <img src="img/m-a.jpg" alt="Marmaris sahili" loading="lazy">
+          <div class="play"><div><span><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></span><small data-en="Demo: your villa video goes here">Demo: villa videonuz burada oynar</small></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="yorumlar" aria-labelledby="yorumlar-title">
+      <div class="wrap">
+        <div class="head reveal">
+          <div>
+            <p class="eyebrow" data-en="Guest reviews">Misafir yorumları</p>
+            <h2 id="yorumlar-title" data-en="What our guests say">Misafirlerimiz ne diyor?</h2>
+          </div>
+          <p data-en="Real reviews from Google, Airbnb or Booking can be shown here, or guests leave a review that you approve first.">Google, Airbnb veya Booking'deki gerçek yorumlarınız burada gösterilir. İsterseniz misafirler de yorum bırakır, siz onayladıktan sonra yayınlanır.</p>
+        </div>
+        <div class="reviews">
+          <article class="review reveal"><span class="sample" data-en="Sample">Örnek</span><div class="stars">★★★★★</div><p data-en="(Sample text) The pool and the view were even better than in the photos. Quick answers on WhatsApp.">(Örnek metin) Havuz ve manzara fotoğraflardan bile güzeldi. WhatsApp'tan hızlı dönüş aldık.</p><footer><span>Misafir A.</span><span>Google</span></footer></article>
+          <article class="review reveal"><span class="sample" data-en="Sample">Örnek</span><div class="stars">★★★★★</div><p data-en="(Sample text) Clean, quiet and perfect for families. The kids loved the pool.">(Örnek metin) Temiz, sessiz ve aileler için ideal. Çocuklar havuzdan çıkmak istemedi.</p><footer><span>Guest B.</span><span>Airbnb</span></footer></article>
+          <article class="review reveal"><span class="sample" data-en="Sample">Örnek</span><div class="stars">★★★★★</div><p data-en="(Sample text) Close to the beach and restaurants, yet private. We will come back.">(Örnek metin) Plaja ve restoranlara yakın ama yine de çok özel. Tekrar geleceğiz.</p><footer><span>Misafir C.</span><span>Booking</span></footer></article>
+        </div>
+        <p class="note reveal" data-en="Note: reviews in this demo are sample texts. Only real guest reviews are published on the live site.">Not: Bu demodaki yorumlar örnek metindir. Canlı sitede yalnızca gerçek misafir yorumları yayınlanır.</p>
+      </div>
+    </section>
+
+    <section id="konum" aria-labelledby="konum-title" style="padding-top:0">
+      <div class="wrap loc">
+        <div class="pics reveal">
+          <img src="img/m-b.jpg" alt="Marmaris kalesinden koy manzarası" loading="lazy">
+          <img src="img/m-d.jpg" alt="Marmaris sahil yolu ve palmiyeler" loading="lazy">
+        </div>
+        <div class="reveal">
+          <p class="eyebrow" data-en="Location">Konum</p>
+          <h2 id="konum-title" data-en="Discover Marmaris">Marmaris'i keşfedin</h2>
+          <p data-en="Turquoise bays, boat trips, the old town and the castle, all within a short drive of the villas.">Turkuaz koylar, tekne turları, tarihi çarşı ve kale: hepsi villalara kısa bir mesafede.</p>
+          <ul class="dist">
+            <li><span data-en="Marmaris centre">Marmaris merkez</span><b data-en="approx. 10 min">yaklaşık 10 dk</b></li>
+            <li><span data-en="Nearest beach">En yakın plaj</span><b data-en="approx. 5 min">yaklaşık 5 dk</b></li>
+            <li><span data-en="Dalaman Airport (DLM)">Dalaman Havalimanı (DLM)</span><b data-en="approx. 1.5 h">yaklaşık 1,5 saat</b></li>
+          </ul>
+          <a class="btn btn-sea" href="https://www.google.com/maps/search/?api=1&amp;query=Marmaris%2C+Mu%C4%9Fla" target="_blank" rel="noopener" data-en="Open in Google Maps">Google Maps'te aç</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="iletisim" aria-labelledby="iletisim-title">
+      <div class="wrap reveal">
+        <p class="eyebrow" data-en="Contact">İletişim</p>
+        <h2 id="iletisim-title" data-en="Your holiday is one message away">Tatiliniz bir mesaj uzağınızda</h2>
+        <p data-en="Write the dates and number of guests, and we will reply with availability and prices.">Tarihleri ve kişi sayısını yazın, müsaitlik ve fiyat bilgisiyle dönüş yapalım.</p>
+        <div class="actions">
+          <a class="btn btn-wa" data-wa="" href="https://wa.me/905303400236" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.2c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.2.6.4.1.1.1.7-.1 1.4Z"/></svg>
+            <span data-en="Write on WhatsApp">WhatsApp'tan yazın</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap">
+      <span data-en="Demo design · Built by <a href='https://kale-it.tr'>KaleIT</a>, Milas">Demo tasarım · Hazırlayan: <a href="https://kale-it.tr">KaleIT</a>, Milas</span>
+      <span data-en="Photos: rawpixel, StockSnap, Wikimedia Commons (CC0 / public domain). Villa names, details and reviews are examples.">Fotoğraflar: rawpixel, StockSnap, Wikimedia Commons (CC0 / kamu malı). Villa isimleri, bilgiler ve yorumlar örnektir.</span>
+    </div>
+  </footer>
+
+  <div class="wa-bar">
+    <a class="btn btn-wa" data-wa="" href="https://wa.me/905303400236" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.8 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-1.9-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5-4.5-.2-.2-1.2-1.6-1.2-3s.8-2.2 1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .4 0 .7.5l.9 2.2c.1.2.1.4 0 .5l-.3.5-.4.5c-.1.1-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2.1 1c.3.2.5.2.6.4.1.1.1.7-.1 1.4Z"/></svg>
+      <span data-en="Ask availability on WhatsApp">WhatsApp'tan müsaitlik sor</span>
+    </a>
+  </div>
+
+  <div class="lb" role="dialog" aria-modal="true" aria-label="Galeri">
+    <button type="button" class="x" aria-label="Kapat">×</button>
+    <button type="button" class="prev" aria-label="Önceki">‹</button>
+    <img alt="">
+    <button type="button" class="next" aria-label="Sonraki">›</button>
+    <div class="cap"></div>
+  </div>
+</body>
+</html>
